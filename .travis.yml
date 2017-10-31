@@ -52,5 +52,6 @@ matrix:
 install:
   - pip install -r requirements.txt;
   - python -c "from statsmodels.api import PHReg"
+
 script:
     - pip install nose
